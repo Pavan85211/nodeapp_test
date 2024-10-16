@@ -11,5 +11,8 @@ app.get('/will', function (req, res) {
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
 });
+app.get('/ready', function (req, res) {
+    res.send('{ "response": " pavan!, It works!" }');
+});
 app.listen(process.env.PORT || 3000);
 module.exports = app;
